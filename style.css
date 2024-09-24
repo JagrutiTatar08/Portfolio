@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #1e2dffe3;
+}
+
+.card:hover {
+  border-radius: 10px;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btnhome {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn-1 {
+  background-color: #1e2dffe3;
+  padding: 7px 24px 7px 24px;
+
+}
+.btn-1:hover {
+  background-color: #da1268;
+}
+.btna{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.btna:hover{
+ text-decoration: none;
+ color: white;
+}
+
+img.vert-move {
+  /* -webkit-animation: mover 1s infinite  alternate; */
+  animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+
+h5{
+ padding: 8px;
+ font-size: 18px;
+}
+.btn-msg{
+  background-color: #1e2dffe3;
+  padding: 5px 40px 5px 40px;
+  font-weight: 600;
+  color: white;
+}
+.btn-msg:hover {
+  background-color: #da1268;
+  color: white;
+}
+
+
+.bi-1 {
+  background-color: #eceff5;
+  margin: 8px;
+  border: 2px solid #dcdada;
+  padding: 5px;
+  border-radius: 50%;
+}
+.bi-1:hover{
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+}
+
+
+.proj{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-1{
+  width: 18rem;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+  }
+
+.card-1:hover {
+  /* animation: pulse 2s 1; */
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.9);
+  transform: skew(1deg);
+}
+
+/* The system featured a user-freindly point-of-sale interface for seamless transactions and integrated customer relationship management to boost enagagement and loyalty. This solution streamlined store operatios, improved accuracy in inventory and sales reporting, and faciliated better data-driven decision-making, resulting in significant improvements in both customer service and overall store performance. */
