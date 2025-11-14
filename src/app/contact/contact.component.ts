@@ -28,9 +28,9 @@ export class ContactComponent {
   contactForm: FormGroup;
   loading = false;
 
-  serviceID = 'service_bjv3f4u';
-  templateID = 'template_21vhppp';
-  publicKey = 'riMJLpLnIS4-4fcst';
+  serviceID = 'service_sk2sqcv';
+  templateID = 'template_bq602ph';
+  publicKey = 'wo6GmfxTopIcxtKOK';
 
   constructor(private fb: FormBuilder, private messageService: MessageService) {
     this.contactForm = this.fb.group({
